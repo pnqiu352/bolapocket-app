@@ -1,10 +1,10 @@
-
 import React from 'react';
 import SessionList from './components/SessionList';
+import './App.css';
 
 function App() {
   return (
-    <div style={{ padding: '2rem', fontFamily: 'Arial' }}>
+    <div className="app-container">
       <h1>⚽ Football Sessions</h1>
       <SessionList />
     </div>
